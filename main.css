@@ -9,26 +9,44 @@ body{
     background-position: center top;
     height:2000px;
 }
-div div input{
+input{
     position: absolute;
-    margin-top: 884px;
-    margin-left:750px;
+    margin-top: 478px;
+    margin-left:630px;
     height: 30px;
     outline:none;
     border:none;
-    font-size: 1.4em;
+    font-size: 1em;
+    
+
 }
-div div button{
+div button{
     position: absolute;
-    margin-top: 880px;
-    margin-left:1320px;
-    height: 50px;
-    width: 50px;
+    margin-top: 474px;
+    margin-left:942px;
+    height: 40px;
+    width: 40px;
     border:none;
     outline:none;
 
     background-color: rgba(255,255,255,0);
 }
-button:hover{
+div>button:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+#picture{
+    position: absolute;
+    margin-top: 378px;
+    margin-left:652px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+
+    background-color: rgba(255,255,255,0);
+}
+#picture:hover{
     background-color: rgba(255,255,255,0.5);
 }

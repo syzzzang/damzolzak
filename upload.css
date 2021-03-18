@@ -1,0 +1,9 @@
+body{
+    background-color: #EFEFEF;
+    background-image: url('upload.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 70%;
+    background-position: center top;
+    height:2000px;
+}

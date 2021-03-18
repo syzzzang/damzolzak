@@ -1,0 +1,50 @@
+body{
+    background-color: #EFEFEF;
+    background-image: url('picture2.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 70%;
+    background-position: center top;
+    height:2000px;
+}
+input{
+    position: absolute;
+    margin-top: 478px;
+    margin-left:630px;
+    height: 30px;
+    outline:none;
+    border:none;
+    font-size: 1em;
+    
+
+}
+div button{
+    position: absolute;
+    margin-top: 474px;
+    margin-left:942px;
+    height: 40px;
+    width: 40px;
+    border:none;
+    outline:none;
+
+    background-color: rgba(255,255,255,0);
+}
+div>button:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+#picture{
+    position: absolute;
+    margin-top: 378px;
+    margin-left:652px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+
+    background-color: rgba(255,255,255,0);
+}
+#picture:hover{
+    background-color: rgba(255,255,255,0.5);
+}
