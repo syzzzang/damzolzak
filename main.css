@@ -1,8 +1,13 @@
+
+
 body{
-    background-image: url('1.png');
+    background-color: #EFEFEF;
+    background-image: url('111.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    height:3300px;
+    background-size: 70%;
+    background-position: center top;
+    height:2000px;
 }
 div div input{
     position: absolute;
