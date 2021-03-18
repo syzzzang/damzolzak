@@ -12,11 +12,12 @@ body{
 input{
     position: absolute;
     margin-top: 478px;
-    margin-left:630px;
+    margin-left:635px;
     height: 30px;
     outline:none;
     border:none;
     font-size: 1em;
+    
     
 
 }
