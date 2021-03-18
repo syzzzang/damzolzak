@@ -1,0 +1,37 @@
+body{
+    background-color: #EFEFEF;
+    background-image: url('comment.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 70%;
+    background-position: center top;
+    height:2000px;
+}
+#upload{
+    position: absolute;
+    margin-top:50px;
+    margin-left:475px;
+    height: 30px;
+    width: 100px;
+    border:none;
+    outline:none;
+    background-color: rgba(255,255,255,0);
+}
+#upload:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+#a{
+    color: rgba(255,255,255,0);
+    position: absolute;
+    margin-top:557px;
+    font-size: 0.6em;
+    margin-left:493px;
+    height:10px;
+
+}
+
+::selection{
+    background-color: rgba(255,255,255,0.5);
+    
+}
