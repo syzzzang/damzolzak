@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #EFEFEF;
     background-image: url('picture2.png');
@@ -9,19 +11,20 @@ body{
 }
 input{
     position: absolute;
-    margin-top: 478px;
-    margin-left:630px;
+    margin-top: 484px;
+    margin-left:640px;
     height: 30px;
     outline:none;
     border:none;
     font-size: 1em;
     
+    
 
 }
 div button{
     position: absolute;
-    margin-top: 474px;
-    margin-left:942px;
+    margin-top: 301.8px;
+    margin-left:621px;
     height: 40px;
     width: 40px;
     border:none;
@@ -30,13 +33,13 @@ div button{
     background-color: rgba(255,255,255,0);
 }
 div>button:hover{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.2);
 }
 
 #picture{
     position: absolute;
-    margin-top: 376px;
-    margin-left:651px;
+    margin-top: 381px;
+    margin-left:658px;
     height: 25px;
     width: 25px;
     border-radius: 15px;
@@ -46,5 +49,18 @@ div>button:hover{
     background-color: rgba(255,255,255,0);
 }
 #picture:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+#upload{
+    position: absolute;
+    margin-top:50px;
+    margin-left:475px;
+    height: 30px;
+    width: 100px;
+    border:none;
+    outline:none;
+    background-color: rgba(255,255,255,0);
+}
+#upload:hover{
     background-color: rgba(255,255,255,0.5);
 }
